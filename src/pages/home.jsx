@@ -1,14 +1,11 @@
-import Blur from "./components/blur";
-import Intro from "./components/intro";
-import Navbar from "./components/navbar";
-import Social from "./components/social";
+import Intro from "../components/intro";
+
+import Social from "../components/social";
 
 function Home() {
   return (
-    <div className="bg-[#181B1F] h-screen">
-      <Navbar />
+    <div className="h-fit">
       <Intro />
-      <Blur />
       <Social />
     </div>
   );

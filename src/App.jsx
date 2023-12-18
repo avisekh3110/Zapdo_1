@@ -7,7 +7,7 @@ import Calculator from "./pages/calculator";
 
 function App() {
   return (
-    <div className="bg-[#181B1F] h-screen">
+    <div className="bg-[#181B1F] h-screen overflow-hidden">
       <BrowserRouter>
         <Navbar />
         <Blur />

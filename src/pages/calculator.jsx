@@ -1,6 +1,6 @@
 export default function Calculator() {
   return (
-    <div className=" flex justify-center my-10 h-3/5 w-full">
+    <div className=" flex justify-center my-10 h-[38rem] w-full">
       <div className="z-30 border-2 bg-[#4f4f4f] w-96 rounded-lg drop-shadow-2xl">
         <div className="w-full h-full pt-8 px-4 text-4xl font-bold text-white">
           <div className="w-full h-[90px] bg-slate-200 rounded-md"></div>

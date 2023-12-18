@@ -4,7 +4,7 @@ import Social from "../components/social";
 
 function Home() {
   return (
-    <div className="h-fit">
+    <div className="h-fit flex flex-col justify-between">
       <Intro />
       <Social />
     </div>
